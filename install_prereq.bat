@@ -20,7 +20,7 @@ cd c:\dev-workspace\domains\spm && copy blodes_domain.jar c:\Users\Public\wls_se
 
 cd c:\dev-workspace && copy start_container.sh c:\Users\Public\wls_servers\ && copy start_docker_tools.sh "%ProgramFiles%\Docker Toolbox\start.sh"
 
-cd c:\dev-workspace\workspaces\spm && 7z x workspace_empty.zip && xcopy "workspace_empty - exported" . /s /e /h && rmdir "workspace_empty - exported" /S /Q && del workspace_empty.zip
+cd c:\dev-workspace\workspaces\spm && 7z x workspace_empty.7z.001 && xcopy "workspace_empty - exported" . /s /e /h && rmdir "workspace_empty - exported" /S /Q && del workspace_empty.zip
 
 cd c:\dev-workspace\ide\eclipseLuna && 7z x eclipse.7z.001 > nul && xcopy eclipse . /s /e /h && rmdir eclipse /S /Q && del eclipse.7z.001 && del eclipse.7z.002 &&  del eclipse.7z.003 &&  del eclipse.7z.004
 
