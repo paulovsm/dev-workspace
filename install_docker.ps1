@@ -7,7 +7,6 @@ If ( -Not (Test-Path -Path $docker_installer_destination) ) {
     "$docker_installer_destination já existe"
 }
 "Installing Docker Toolbox"
-cd
 
 If ( -Not (Test-Path -Path "${env:ProgramFiles}\Docker Toolbox") ) {
 	"Installing started..."
